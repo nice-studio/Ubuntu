@@ -1,0 +1,22 @@
+{
+	"name": "exo2",
+	"description": "",
+	"main": "dist/css/exo2.css",
+	"authors": [
+		"ProjectSoft <projectsoft2009@yandex.ru>"
+	],
+	"license": "ISC",
+	"homepage": "https://github.com/nice-studio/Exo2",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests",
+		"src/pug",
+		"Gruntfile.js",
+		"**/*.html",
+		"**/*.ico",
+		"**/*.json"
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"name": "exo2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/css/exo2.css",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nice-studio/Exo2.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nice-studio/Exo2/issues"
+	},
+	"homepage": "https://github.com/nice-studio/Exo2#readme",
+	"devDependencies": {
+		"grunt": "^1.0.1",
+		"grunt-contrib-less": "^1.3.0",
+		"grunt-contrib-pug": "^2.0.0",
+		"grunt-contrib-watch": "^1.0.0",
+		"load-grunt-tasks": "^3.5.0",
+		"grunt-notify": "git+https://github.com/ProjectSoft-STUDIONIONS/grunt-notify.git",
+		"time-grunt": "^1.4.0"
+	}
+}
