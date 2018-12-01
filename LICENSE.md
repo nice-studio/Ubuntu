@@ -1,3 +1,9 @@
+Copyright (c) 2018 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
 -------------------------------
 UBUNTU FONT LICENCE Version 1.0
 -------------------------------
