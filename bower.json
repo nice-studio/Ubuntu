@@ -1,12 +1,12 @@
 {
-	"name": "exo2",
+	"name": "ubuntu",
 	"description": "",
-	"main": "dist/css/exo2.css",
+	"main": "dist/css/ubuntu.css",
 	"authors": [
 		"ProjectSoft <projectsoft2009@yandex.ru>"
 	],
 	"license": "ISC",
-	"homepage": "https://github.com/nice-studio/Exo2",
+	"homepage": "https://github.com/nice-studio/Ubuntu",
 	"ignore": [
 		"**/.*",
 		"node_modules",
