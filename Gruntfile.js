@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 	var gc = {
 		fontVers: '1.0.0',
+		fn: "ubuntu",
 		tasks: [
 			'notify:watch',
 			'less',
@@ -17,17 +18,34 @@ module.exports = function(grunt) {
 			css: {
 				options : {
 					compress: false,
-					ieCompat: false
+					ieCompat: false,
+					modifyVars: {
+						fontpath: '"dist/fonts"'
+					}
 				},
 				files : {
-					'dist/css/ubuntu.css' : [
-						'src/less/ubuntu.less'
-					],
 					'test/css/main.css' : [
 						'src/less/main.less'
+					],
+					'dist/css/<%= globalConfig.fn %>.css' : [
+						'src/less/fontface.less'
 					]
 				}
-			}
+			},/*
+			dist: {
+				options : {
+					compress: false,
+					ieCompat: false,
+					modifyVars: {
+						fontpath: "dist/fonts"
+					}
+				},
+				files : {
+					'dist/css/<%= globalConfig.fn %>.css' : [
+						'src/less/fontface.less'
+					]
+				}
+			}*/
 		},
 		pug: {
 			files: {
