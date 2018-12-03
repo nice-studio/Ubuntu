@@ -1,22 +1,25 @@
 {
-	"name": "ubuntu",
-	"description": "",
-	"main": "dist/css/ubuntu.css",
-	"authors": [
-		"ProjectSoft <projectsoft2009@yandex.ru>"
-	],
-	"license": "ISC",
-	"homepage": "https://github.com/nice-studio/Ubuntu",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests",
-		"src/pug",
-		"Gruntfile.js",
-		"**/*.html",
-		"**/*.ico",
-		"**/*.json"
-	]
+  "name": "ubuntu",
+  "description": "",
+  "main": "dist/css/ubuntu.css",
+  "authors": [
+    "ProjectSoft <projectsoft2009@yandex.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nice-studio/Ubuntu",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/pug",
+    "Gruntfile.js",
+    "**/*.html",
+    "**/*.ico",
+    "**/*.json"
+  ],
+  "devDependencies": {
+    "fontname": "https://github.com/nice-studio/sceleton-webfont.git"
+  }
 }
