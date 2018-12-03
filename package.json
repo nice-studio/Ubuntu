@@ -15,6 +15,7 @@
 	"bugs": {
 		"url": "https://github.com/nice-studio/Ubuntu/issues"
 	},
+	"githubpage": "https://nice-studio.github.io/Ubuntu/",
 	"homepage": "https://github.com/nice-studio/Ubuntu#readme",
 	"devDependencies": {
 		"grunt": "^1.0.1",
